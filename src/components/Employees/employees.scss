@@ -1,0 +1,66 @@
+@import "../../app.scss";
+
+.employee-card{
+    &.theme-dark{
+        .card{
+            color: $purple;
+        }
+    }
+     &.theme-light{
+        .card{
+            color: #795695;
+        }
+    }
+}
+
+.employee-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:5.7rem ;
+}
+
+.card{
+    padding: 0rem 1rem;
+    height: 6rem;
+    width: 90%;
+    background-color: white;
+    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.userName{
+    background: linear-gradient(to right, #D42C40, #F1541A);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.employeeName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media (max-width: 700px){
+    .card{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+}

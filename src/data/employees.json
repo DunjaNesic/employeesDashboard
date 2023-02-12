@@ -1,0 +1,77 @@
+{
+    "employees" : [
+        {
+            "name": "Dunja",
+            "surname": "Nesic",
+            "position": "mobile app developer",
+            "company": "Ubisoft",
+            "yearOfEmployment":2013,
+            "e-mail": "dunjanesic@gmail.com",
+            "number": "0617155267"
+        },
+        {
+            "name": "Vladimir",
+            "surname": "Lazarevic",
+            "position": "fullstack web developer",
+            "company": "Hireclass",
+            "yearOfEmployment":2022,
+             "e-mail": "vladimirlazarevic@gmail.com",
+             "number": "0623434676"
+        }, 
+        {
+            "name": "Stefan",
+            "surname": "Jovanovic",
+            "position": "systems programmer",
+            "company": "Apache Software Foundation",
+            "yearOfEmployment":2013,
+             "e-mail": "stefanjovanovic@gmail.com",
+             "number": "0652615970"
+        },
+        {
+            "name": "Nevena",
+            "surname": "Komatina",
+            "position": "frontend web developer",
+            "company": "Quantox",
+            "yearOfEmployment":2023,
+             "e-mail": "nevenakomatina@gmail.com",
+             "number": "0658980878"
+        }, 
+        {
+            "name": "Petar",
+            "surname": "Nikodijevic",
+            "position": "backend web developer",
+            "company": "Nordeus",
+            "yearOfEmployment":2017,
+             "e-mail": "petarnikodijevic@gmail.com",
+             "number": "0613756234"
+        },
+        {
+            "name": "Mladen",
+            "surname": "Mijailovic",
+            "position": "frontend web developer",
+            "company": "Levi9",
+            "yearOfEmployment":2017,
+             "e-mail": "mladenmijailovic@gmail.com",
+             "number": "0617879098"            
+        },
+        {
+            "name": "Sandra",
+            "surname": "Kovacevic",
+            "position": "designer",
+            "company": "Adacta",
+            "yearOfEmployment":2015,
+            "e-mail": "sandrakovacevic@gmail.com",
+            "number": "0696945453"
+        },
+        {
+            "name": "Sara",
+            "surname": "Djokic",
+            "position": "frontend web developer",
+            "company": "Nordeus",
+            "yearOfEmployment":2019,
+            "e-mail": "saradjokic@gmail.com",
+            "number": "0691610606"  
+        }
+    ]
+}
+

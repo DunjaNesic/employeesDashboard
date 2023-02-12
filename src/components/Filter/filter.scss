@@ -1,0 +1,109 @@
+@import "../../app.scss";
+
+
+.filter{
+    &.theme-dark{
+        .toggle-btn.dark{
+            background: linear-gradient(to right, #D42C40, #F1541A);
+            color: #fff;
+        }
+        .toggle-btn.light{
+            background: transparent;
+        }
+        .headers .two-buttons .not-colored{
+            background: $purple ;
+        }
+
+    }
+    &.theme-light {
+        .toggle-btn.dark {
+            background: transparent;
+            }
+        .toggle-btn.light {
+            background: linear-gradient(to right, #D42C40, #F1541A);
+            color: #fff;
+        }
+        .headers .two-buttons .not-colored{
+            background: $lightPurple;
+        }
+    }
+}
+
+.form-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.button-box{
+    position: relative;
+    border-radius: 2rem;
+    background-color: #fff;  
+}
+
+h2{
+    color: white;
+}
+
+.headers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 4rem;
+    padding-left: 10rem;
+    padding-bottom: 1rem;
+}
+
+.two-buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.colored{
+    background: linear-gradient(to right, #D42C40, #F1541A);
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    border: 1px solid #D42C40;
+    text-align: center;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.colored:hover{
+    transform: scale(1.048);
+    transition: 0.3s;
+}
+
+.not-colored{
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.not-colored:hover{
+    transform: scale(1.048);
+    transition: 0.3s;
+    background: linear-gradient(to right, #D42C40, #F1541A) !important;
+    border: none;
+}
+
+.toggle-btn {
+    padding: 1rem 3rem;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+@media (max-width: 700px) {
+.headers {  
+     padding-left: 7rem;  
+    }
+}

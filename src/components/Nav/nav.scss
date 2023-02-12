@@ -1,0 +1,73 @@
+@import "../../app.scss";
+
+.sidenav {
+    &.theme-light {
+
+        .ikonica1, .ikonica2,
+        .ikonica3 {
+            color: $lightPurple;
+        }
+
+        li a {
+            color: $lightPurple;
+        }
+    }
+
+    &.theme-dark {
+
+        .ikonica1, .ikonica2,
+        .ikonica3 {
+            color: $purple;
+        }
+
+        li a {
+            color: $purple;
+        }
+    }
+}
+
+.sidenav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: white;
+    border-radius: 0rem 2rem 0rem 0rem;
+    width: 6rem;
+}
+
+.sidenav li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidenav li{
+    margin-bottom: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+//zaista se izvinjava na ovom kodu
+.sidenav .first-li:hover a{
+    color: $pink !important;
+}
+.sidenav .first-li:hover .ikonica1{
+    color: $pink !important;
+}
+.sidenav .second-li:hover a {
+    color: $pink !important;
+}
+.sidenav .second-li:hover .ikonica2{
+    color: $pink !important;
+}
+.sidenav .third-li:hover a {
+    color: $pink !important;
+}
+.sidenav .third-li:hover .ikonica3{
+    color: $pink !important;
+}
+
+.first{
+    padding-top: 1.5rem;
+}

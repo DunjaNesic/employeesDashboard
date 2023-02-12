@@ -1,0 +1,16 @@
+$pink: #D42C40;
+$purple: #1E0E4A;
+$orange: #F1541A;
+$lightPurple: #9E7BB3;
+  
+
+.app {
+  width: 100%;
+  &.theme-light {
+    background-color: $lightPurple;
+  }
+
+  &.theme-dark {
+    background-color: $purple;
+  }
+}
